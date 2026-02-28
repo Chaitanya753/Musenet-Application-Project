@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musenet Music Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/Spotify_favicon.png" type="image/x-icon">
+    
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <a href="">
+                <img src="./images/Musenet Logo ..png" alt="Logo">
+            </a>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+       
+        
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Login</button>
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>Marathi Songs</h2>
+
+            <div class="list">
+                <div class="item">
+                    <img src="./images/Ajay-Atul.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of Ajay-Atul</h4>
+                    <p>Ajay atul is on trending.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Adarsh Shinde.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Let's play Adarsh Shinde</h4>
+                    <p>Adarsh is best for dhingana</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Swapnil Bandodkar.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Swapnil Bandodkar Hits</h4>
+                    <p>Mazi gani from swapnil.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Avdhoot Gupte.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of Avadhoot</h4>
+                    <p>He is create innovation</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Arya Ambekar.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Arya Ambekar's Hits</h4>
+                    <p>Listen this for clear vioce</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Bela Shende.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of Bela Shende</h4>
+                    <p>Bela shende on stage.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>New Hindi Songs</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./images/Arijit Singh.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Arijit's Singh Songs</h4>
+                    <p>Arijit Singh's playlist is better for movement </p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Sonu Nigam.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of Sonu Nigam</h4>
+                    <p>It is realises the heaven</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Jubin Nautiyal.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Jubin on top.</h4>
+                    <p>Performer of the year.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Shankar  Mahadevan.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of Shankar Mahadevan</h4>
+                    <p>He is recomended for breathless</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Neha Kakkar.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Listen to neha.</h4>
+                    <p>She is for playback. </p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Shreya Ghoshal.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Melody queen shreya.</h4>
+                    <p>She is recoveres the stress.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="spotify-playlists">
+            <h2>Evergreen Hits</h2>
+            <div class="list">
+                <div class="item">
+                    <img src="./images/Udit Narayan.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of udit narayan</h4>
+                    <p>He is realises the love.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Lata Mangeshkar.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Legend forever lata.</h4>
+                    <p>She is real life occasional music singer.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Kumar Sanu.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Listen with kumar sanu</h4>
+                    <p>Kumar sanu is best for singing compassion.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Alka Yagnik.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Alka yagnik hits</h4>
+                    <p>Alka yagnik is superb scenarion.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Mohammad Rafi.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Best of Mohd.rafi</h4>
+                    <p>Muhammad rafi was mistory of songs.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./images/Himesh Reshammiya.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Song Dew with Himesh</h4>
+                    <p>Himesh is good singer in bollywood</p>
+                </div>
+                
+        
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+</body>
+</html>
